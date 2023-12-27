@@ -1,0 +1,5 @@
+The term "logistic regression" can be a bit misleading due to the inclusion of "regression" in its name. Logistic regression is indeed used for classification, not regression in the traditional sense of predicting continuous values. The reason for the name is historical, and it's rooted in the underlying mathematical concepts.
+
+In logistic regression, the model predicts the probability of an event occurring (usually a binary outcome like 0 or 1). The logistic function (sigmoid) is applied to a linear combination of input features to transform the output into a probability scale between 0 and 1. This probability is then used to make a classification decision.
+
+So, in short, logistic regression is a classification algorithm that models the probability of an event, despite its name containing the term "regression." It's a common source of confusion, but the focus is on classifying, not predicting continuous values.

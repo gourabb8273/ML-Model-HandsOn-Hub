@@ -1,0 +1,49 @@
+Certainly! Let's compare decision trees for regression and classification:
+
+*Decision Tree for Classification:*
+
+1. *Objective:*
+   - *Goal:* Predict the class or category of a data point.
+
+2. *Splitting Criteria:*
+   - *Measure:* Commonly uses measures like Gini impurity or information gain.
+   - *Choice:* Selects the feature and split point that maximizes the chosen measure.
+
+3. *Leaf Nodes:*
+   - *Represent:* Each leaf node represents a class or category.
+   - *Output:* Output in a leaf node is the majority class of the samples in that region.
+
+4. *Segregation of Regions:*
+   - *Process:* Recursive splitting based on chosen splitting criteria.
+   - *Stop Conditions:* Stopping conditions like reaching a maximum depth or minimum samples in a node.
+
+5. *Prediction for New Data:*
+   - *Process:* Traverse the tree from the root to a leaf node based on features of the new data point.
+   - *Output:* The predicted output is the majority class of the samples in the reached leaf node.
+
+*Decision Tree for Regression:*
+
+1. *Objective:*
+   - *Goal:* Predict a continuous target variable.
+
+2. *Splitting Criteria:*
+   - *Measure:* Uses reduction in variance as the common measure.
+   - *Choice:* Selects the feature and split point that maximizes the reduction in variance.
+
+3. *Leaf Nodes:*
+   - *Represent:* Each leaf node represents a region in the feature space.
+   - *Output:* Output in a leaf node is the aggregation (e.g., average) of target values in that region.
+
+4. *Segregation of Regions:*
+   - *Process:* Recursive splitting based on the reduction in variance.
+   - *Stop Conditions:* Stopping conditions like reaching a maximum depth or minimum samples in a node.
+
+5. *Prediction for New Data:*
+   - *Process:* Traverse the tree from the root to a leaf node based on features of the new data point.
+   - *Output:* The predicted output is the value stored in the reached leaf node.
+
+*Summary:*
+- In classification, decision trees segregate regions based on measures like Gini impurity, aiming for homogeneity of classes.
+- In regression, decision trees segregate regions based on the reduction in variance, aiming to minimize variability within regions.
+- Leaf nodes in classification represent classes, while in regression, they represent continuous predictions.
+- Both use a recursive splitting process, but the choice of splitting criteria differs based on the nature of the target variable.
