@@ -1,0 +1,16 @@
+**Algorithms for Supervised Learning:**
+1. **Decision Tree:** Primarily used for classification and regression in supervised learning.
+2. **Naive Bayes:** Mainly employed in classification tasks in supervised learning.
+3. **K-Nearest Neighbors (KNN):** Commonly used for both classification and regression in supervised learning.
+4. **Linear Regression:** A regression algorithm used in supervised learning for predicting continuous values.
+
+**Algorithms for Unsupervised Learning:**
+1. **K-Means Clustering:** A classic unsupervised learning algorithm for clustering.
+2. **Hierarchical Clustering:** Another unsupervised method for grouping similar data points.
+3. **Dimensionality Reduction Algorithms:** Techniques like Principal Component Analysis (PCA) are used for unsupervised learning.
+
+**Deep Learning:**
+- Deep learning is a broader category that includes neural networks with multiple layers (deep neural networks). While neural networks can be used for both supervised and unsupervised learning, they are not exclusive to either category.
+- Deep learning can be applied to tasks such as image recognition, natural language processing, and generative tasks in both supervised and unsupervised contexts.
+
+In summary, the algorithms you mentioned (Decision Tree, Naive Bayes, KNN, Linear Regression) are commonly associated with supervised learning, but there are specific algorithms designed for unsupervised learning, and deep learning is a broader paradigm that can be applied to various types of tasks, both supervised and unsupervised.
