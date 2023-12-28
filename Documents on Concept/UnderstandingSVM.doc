@@ -1,0 +1,20 @@
+During training, the SVM learns how important each of the training data points is to
+represent the decision boundary between the two classes. Typically **only a subset of the training points matter for defining the decision boundary**:
+
+The ones that lie on the border between the classes. These are called support vectors and give the support vector machine its name
+
+During training, the SVM learns how important each of the training data points is to
+represent the decision boundary between the two classes. Typically only a subset of
+the training points matter for defining the decision boundary: the ones that lie on the
+border between the classes. These are called support vectors and give the support vec‐
+tor machine its name.
+To make a prediction for a new point, the distance to each of the support vectors is
+measured. A classification decision is made based on the distances to the support vec‐
+tor, and the importance of the support vectors that was learned during training
+(stored in the dual_coef_ attribute of SVC).
+The distance between data points is measured by the
+
+ Gaussian kernel:  krbf(x1 , x2) = exp (ɣǁx1  - x2ǁ^2)
+
+Here, x1  and x2 are data points, ǁ x1  - x2 ǁ denotes Euclidean distance, and ɣ (gamma)
+is a parameter that controls the width of the Gaussian kernel

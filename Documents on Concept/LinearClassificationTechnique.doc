@@ -1,0 +1,35 @@
+There are two method for linear classification techniques,
+
+*Linear Logistic Regression:*
+- Logistic regression is like drawing a straight line to separate different classes.
+- It predicts the probability of belonging to a particular class.
+- Works well for binary classification problems.
+
+*Linear Support Vector Machine (SVM):*
+- SVM is like finding the best-fitting line that maximally separates different classes.
+- It aims to maximize the margin between classes.
+- Effective for binary and multiclass classification.
+
+*Key Difference:*
+- Logistic regression focuses on probabilities and the likelihood of belonging to a class.
+- SVM focuses on finding the best line that maximally separates classes, aiming for a clear boundary.
+
+In essence, logistic regression is about probabilities, while SVM is about maximizing the separation between classes with a clear margin. Does that clarify the distinction, or do you have more questions on this?
+
+
+
+The term "Support Vector Machine" (SVM) originates from the unique role played by certain data points in the classification process. Here's why it's called a Support Vector Machine:
+
+1. *Support Vectors:*
+   - In SVM, the decision boundary (hyperplane) is determined by a subset of data points called "support vectors."
+   - These support vectors are the data points closest to the decision boundary and play a crucial role in defining the optimal separation between classes.
+
+2. *Maximizing Margin:*
+   - SVM aims to find the hyperplane that maximizes the margin between classes.
+   - The margin is the distance between the hyperplane and the nearest support vector.
+
+3. *Critical Support:*
+   - Support vectors are critical because they influence the position, orientation, and robustness of the decision boundary.
+   - Changes in other data points may not impact the decision boundary, but a shift in a support vector could alter it.
+
+In essence, the name "Support Vector Machine" reflects the emphasis on these critical support vectors that guide the construction of the optimal decision boundary. The method leverages these vectors to achieve a clear and well-defined separation between different classes.
